@@ -71,6 +71,8 @@ a {
 .back {
     color: #5670a7;
     font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
 }
 
 .mainvisual img {
@@ -78,18 +80,34 @@ a {
     height: auto;
 }
 
-.about {
+.about h1 {
+    color: #5771a8;
+    text-align: center;
+}
+
+.about .sentence {
     color: black;
     text-align: center;
 }
 
-.about h1 {
-    color: #5670A7;
+#about h1 {
+    color: #5771a8;
+    text-align:center;
+}
+
+.sentence {
+    color: black;
+    text-align:center;
 }
 
 #coll {
     color: #5670A7;
     text-align: center;
+    padding-top: 10px;
+}
+
+#about {
+    padding-top: 20px;
 }
 
 
@@ -170,6 +188,11 @@ body {
 .footer-container p {
     padding-top: 20px;
     color: white;
+}
+
+footer {
+    padding-top: 30px;
+    text-align:center;
 }
 
 
